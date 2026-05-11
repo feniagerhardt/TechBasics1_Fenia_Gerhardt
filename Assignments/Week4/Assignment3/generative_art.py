@@ -4,7 +4,7 @@ from batman import batman_logo
 
 print("Hello, this is the Gotham Police Department.")
 name = input("What is your name? ")
-print("Hello, " + name)
+print("Hello " + name)
 villain = input("""Because of which villain are you calling? 
 Joker, Scarecrow, Riddler, Red Hood, Penguin""" )
 
