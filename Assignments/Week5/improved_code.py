@@ -23,7 +23,7 @@ def main():
     print("welcome to your musical mood therapist!")
     emotion = input(""" what emotion are you feeling the most right now? 
         angry/sad/happy/unsure """) #shortening the questions part of the code
-    mood = int(input(f"On a scale from 1 to 10, how much are you feeling {emotion} right now?")) #answer is an integer / no need for string libraries now
+    mood = int(input(f"On a scale from 1 to 10, how much are you feeling {emotion} right now?")) #answer is an integer / no need for string dictionaries now
 
     if emotion not in {"angry", "sad", "happy", "unsure"}:
         print("i see you're trying to break the system... Spine Breaker by BTS is for you. Now please answer correctly") #typo conditional/failsafe #this is a great song btw
