@@ -44,7 +44,7 @@ elif mood in m3:
     if question7 == "yes":
         print("You should listen to Set Me Free by JIMIN or The Last by Agust D")
     else:
-        print("Listen to Like Animals by BTS on ARIRANG! Such a good album...")
+        print("Listen to Like Animals by BTS on ARIRANG! Such a good song...")
 
 else:
-    print("I see you are trying to resist the system. Spine Breaker by BTS is for you. Now please enter a correct number")
+    print("I see you are trying to resist the system. Spine Breaker by BTS is for you. Now please enter a correct number.")
