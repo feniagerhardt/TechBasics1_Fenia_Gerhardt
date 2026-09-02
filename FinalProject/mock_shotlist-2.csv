@@ -1,0 +1,52 @@
+Scene,Scene Description,Location,Shot Number,Shot Size,Camera Angle,Camera Movement,Gear,Daytime
+1,Kitchen Argument,Apartment Kitchen,1,WS (Wide Shot),EST (Establisher),Static,Shoulder Rig,Morning
+1,Kitchen Argument,Apartment Kitchen,2,MCU (Medium Close Up),Close-Up,Pan,Steadicam,Midday
+1,Kitchen Argument,Apartment Kitchen,3,MCU (Medium Close Up),Low Angle,Static,Handheld,Golden Hour
+1,Kitchen Argument,Apartment Kitchen,4,MCU (Medium Close Up),Wide Shot,Static,Steadicam,Midday
+1,Kitchen Argument,Apartment Kitchen,5,OTS (Over The Shoulder),Low Angle,Static,Handheld,Midday
+1,Kitchen Argument,Apartment Kitchen,6,OTS (Over The Shoulder),High Angle,Pan,Tripod,Night
+2,Morning Commute,City Street,1,WS (Wide Shot),EST (Establisher),Static,Handheld Rig,Dawn
+2,Morning Commute,City Street,2,MCU (Medium Close Up),Medium Shot,Tracking,Handheld Rig,Afternoon
+2,Morning Commute,City Street,3,CU (Close Up),Medium Shot,Handheld,Gimbal,Morning
+2,Morning Commute,City Street,4,FS (Full Shot),Wide Shot,Handheld,Handheld Rig,Night
+3,Office Confrontation,Corporate Office,1,WS (Wide Shot),EST (Establisher),Static,Handheld Rig,Dawn
+3,Office Confrontation,Corporate Office,2,MCU (Medium Close Up),High Angle,Dolly,Gimbal,Golden Hour
+3,Office Confrontation,Corporate Office,3,MCU (Medium Close Up),Low Angle,Handheld,Shoulder Rig,Night
+3,Office Confrontation,Corporate Office,4,WS (Wide Shot),Low Angle,Pan,Shoulder Rig,Morning
+3,Office Confrontation,Corporate Office,5,MCU (Medium Close Up),Medium Shot,Handheld,Gimbal,Dawn
+3,Office Confrontation,Corporate Office,6,CU (Close Up),Wide Shot,Tracking,Handheld Rig,Golden Hour
+3,Office Confrontation,Corporate Office,7,WS (Wide Shot),Medium Shot,Handheld,Handheld Rig,Midday
+3,Office Confrontation,Corporate Office,8,WS (Wide Shot),Wide Shot,Dolly,Shoulder Rig,Midday
+4,Rooftop Escape,Rooftop,1,WS (Wide Shot),EST (Establisher),Static,Handheld,Dusk
+4,Rooftop Escape,Rooftop,2,CU (Close Up),Medium Shot,Tracking,Tripod,Afternoon
+4,Rooftop Escape,Rooftop,3,OTS (Over The Shoulder),Medium Shot,Handheld,Gimbal,Midday
+4,Rooftop Escape,Rooftop,4,MCU (Medium Close Up),Close-Up,Tracking,Handheld Rig,Morning
+4,Rooftop Escape,Rooftop,5,CU (Close Up),Low Angle,Handheld,Steadicam,Dusk
+5,Diner Reunion,Diner,1,WS (Wide Shot),EST (Establisher),Static,Tripod,Golden Hour
+5,Diner Reunion,Diner,2,FS (Full Shot),Medium Shot,Handheld,Steadicam,Midday
+5,Diner Reunion,Diner,3,OTS (Over The Shoulder),Low Angle,Handheld,Shoulder Rig,Night
+5,Diner Reunion,Diner,4,FS (Full Shot),Low Angle,Tracking,Handheld Rig,Midday
+5,Diner Reunion,Diner,5,CU (Close Up),Low Angle,Tracking,Gimbal,Dawn
+5,Diner Reunion,Diner,6,MCU (Medium Close Up),Wide Shot,Pan,Shoulder Rig,Midday
+5,Diner Reunion,Diner,7,FS (Full Shot),Low Angle,Static,Tripod,Golden Hour
+6,Car Chase,Highway,1,WS (Wide Shot),EST (Establisher),Static,Handheld,Golden Hour
+6,Car Chase,Highway,2,OTS (Over The Shoulder),Close-Up,Dolly,Gimbal,Dusk
+6,Car Chase,Highway,3,MCU (Medium Close Up),Low Angle,Handheld,Shoulder Rig,Afternoon
+6,Car Chase,Highway,4,MCU (Medium Close Up),Close-Up,Tracking,Steadicam,Golden Hour
+6,Car Chase,Highway,5,MCU (Medium Close Up),Close-Up,Dolly,Steadicam,Night
+6,Car Chase,Highway,6,MCU (Medium Close Up),Close-Up,Dolly,Handheld,Midday
+6,Car Chase,Highway,7,CU (Close Up),Close-Up,Pan,Handheld,Dawn
+6,Car Chase,Highway,8,OTS (Over The Shoulder),Wide Shot,Dolly,Handheld Rig,Golden Hour
+6,Car Chase,Highway,9,MCU (Medium Close Up),Wide Shot,Handheld,Handheld Rig,Midday
+6,Car Chase,Highway,10,MCU (Medium Close Up),Medium Shot,Dolly,Gimbal,Morning
+7,Forest Search,Forest Clearing,1,WS (Wide Shot),EST (Establisher),Static,Shoulder Rig,Golden Hour
+7,Forest Search,Forest Clearing,2,MCU (Medium Close Up),Low Angle,Pan,Steadicam,Dusk
+7,Forest Search,Forest Clearing,3,FS (Full Shot),Low Angle,Pan,Handheld Rig,Night
+7,Forest Search,Forest Clearing,4,OTS (Over The Shoulder),High Angle,Pan,Handheld,Dawn
+7,Forest Search,Forest Clearing,5,CU (Close Up),Close-Up,Tracking,Shoulder Rig,Dusk
+7,Forest Search,Forest Clearing,6,WS (Wide Shot),High Angle,Dolly,Tripod,Morning
+8,Final Goodbye,Train Station,1,WS (Wide Shot),EST (Establisher),Static,Steadicam,Midday
+8,Final Goodbye,Train Station,2,MCU (Medium Close Up),Close-Up,Static,Handheld,Night
+8,Final Goodbye,Train Station,3,CU (Close Up),Low Angle,Pan,Gimbal,Morning
+8,Final Goodbye,Train Station,4,MCU (Medium Close Up),Medium Shot,Static,Gimbal,Dawn
+8,Final Goodbye,Train Station,5,WS (Wide Shot),Wide Shot,Dolly,Steadicam,Afternoon
