@@ -13,7 +13,7 @@ st.write(f"My Project is called {x}")
 if x:
     st.badge("What a cute name!", color= "violet")
     st.session_state["x"] = x
-    st.success(f"Gespeichert: {x}")
+    st.success(f"Saved: {x}")
 
 # defining function
 
@@ -40,10 +40,12 @@ space()
 csv = st.text_input("Paste your csv path here")
 
 if csv:
-    df = pd.read_csv(csv)
+    df = pd.read_csv(csv, sep=None, engine="python", encoding="utf-8")
+    if len(df.columns) == 1:
+        df = pd.read_csv(csv, sep=";")          # i figured out the problem my code is fixing here with AI
     st.session_state["df"] = df
-    st.success(f"Gespeichert: {csv}")
-
+    st.success(f"Saved: {csv}")
+    #st.write(df.columns.tolist()) #activate if csv df does not work
 space ()
 
 # choose the next page / sort by location vs scene
