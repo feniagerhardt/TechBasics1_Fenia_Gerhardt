@@ -21,7 +21,6 @@ if x:
 else:
     st.title("Shotlist Organizer / Location")
 
-click_button()
 space()
 image_creation()
 space()
@@ -32,7 +31,7 @@ df = st.session_state.get("df", None)
 filtering = None
 
 if df is not None and not df.empty:
-    location_options = df["Location"].unique().tolist() # this line was made with AI
+    location_options = df["Location"].unique().tolist()
 
     sortlocation = st.select_slider("Which Location are you looking for?", options=location_options)
     st.write("Ah so this scene is happening there!", sortlocation)
@@ -136,10 +135,11 @@ if df is not None and filtering is not None:
             st.session_state["click3"] = click3
             st.session_state["df"] = df
 
-    current_row = df[(df["Location"] == current_location) & (df["Shot Number"] == current_shot)]
-    st.write("Diese Zeile wurde geändert:")
+    st.write("This line was changed:")
     st.data_editor(final_filter, key= "Changed")
-
+    st.divider()
+    st.write("Changes not updating?")
+    click_button()
     st.divider()
 
     def build_pdf(dataframe: pd.DataFrame) -> bytes: # this is AI because i was so confused

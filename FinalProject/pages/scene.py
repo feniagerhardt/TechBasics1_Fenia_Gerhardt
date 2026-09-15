@@ -25,9 +25,6 @@ if x:
 else:
     st.title("Shotlist Organizer / Scene")
 
-# functions
-
-click_button()
 space()
 image_creation()
 space()
@@ -148,6 +145,11 @@ if df is not None and filtering is not None:
 
     st.write("This line was changed:")
     st.data_editor(final_filter, key= "Changed")
+
+    st.divider()
+    st.write("Changes not updating?")
+    click_button()
+    st.divider()
 
 # description / note box
 

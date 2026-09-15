@@ -11,10 +11,9 @@ def image_creation():
         st.badge("No image yet!! Add one above👾", color="red")
 
 def click_button():
-    is_clicked = st.button("Click me")
+    is_clicked = st.button("Click me!!✌🏻")
     if is_clicked:
-        st.write("OMG so cool!")
-        st.badge("Good job!!", color="green")
+        st.badge("You've updated the page!")
 
 def add_line_button(key_suffix):
     toggle_key = f"show_form_{key_suffix}"
@@ -43,3 +42,4 @@ def add_line_button(key_suffix):
                 st.rerun()
         else:
             st.warning ("Please put in all values")
+
