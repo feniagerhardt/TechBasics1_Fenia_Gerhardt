@@ -51,6 +51,7 @@ space ()
 # choose the next page / sort by location vs scene
 
 st.markdown("<hr style='border:1px solid #8A5FBF;'>", unsafe_allow_html=True)
+
 st.subheader("Would you rather...")
 
 col1, col2=st.columns(2) # put it next to each other
@@ -58,4 +59,5 @@ with col1:
     st.page_link("pages/scene.py", label="Sort by *Scene!*")
 with col2:
     st.page_link("pages/location.py", label="Sort by *Location!*")
+
 st.markdown("<hr style='border:1px solid #8A5FBF;'>", unsafe_allow_html=True)

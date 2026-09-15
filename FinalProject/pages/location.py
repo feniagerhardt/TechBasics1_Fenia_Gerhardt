@@ -8,7 +8,7 @@ from fpdf import FPDF
 from shared_functions import click_button, image_creation, add_line_button
 from main import space
 
-def safe_text(text): # ai because ?????
+def safe_text(text): # this function is with ai
     if not isinstance(text, str):
         text = str(text)
     text = text.replace('\ufeff', '').replace('\ufffe', '')  # strip BOM
@@ -25,7 +25,7 @@ space()
 image_creation()
 space()
 
-# get data from homepage (this is difficult ahh)
+# get data from homepage
 
 df = st.session_state.get("df", None)
 filtering = None

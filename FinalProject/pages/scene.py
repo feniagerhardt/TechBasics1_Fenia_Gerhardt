@@ -8,7 +8,7 @@ from fpdf import FPDF
 from shared_functions import click_button, image_creation, add_line_button
 from main import space
 
-def safe_text(text): #ai because ?????
+def safe_text(text): # this function is with ai
     if not isinstance(text, str):
         text = str(text)
     text = text.replace('\ufeff', '').replace('\ufffe', '')  # strip BOM
@@ -29,7 +29,7 @@ space()
 image_creation()
 space()
 
-# get data from homepage (this is difficult ahh)
+# get data from homepage
 
 df = st.session_state.get("df", None)
 filtering = None
@@ -57,7 +57,6 @@ space()
 
 # daytime slider bar
 
-# this code is ugly, i will put it differently later
 daytime_images = {
     "night": "FinalProject/pictures/night.jpeg", "midday": "FinalProject/pictures/midday.jpg","sunrise": "FinalProject/pictures/sunrise.jpg","golden hour": "FinalProject/pictures/golden hour.jpeg","evening": "FinalProject/pictures/evening.jpg.avif", "afternoon": "FinalProject/pictures/afternoon.jpg.avif","after midnight": "FinalProject/pictures/after midnight.jpeg", "morning": "FinalProject/pictures/early morning.jpg", "late morning": "FinalProject/pictures/late morning.jpeg",
 }
@@ -152,9 +151,6 @@ if df is not None and filtering is not None:
     st.divider()
 
 # description / note box
-
-# saver
-st.divider()
 
 def build_pdf(dataframe: pd.DataFrame) -> bytes: # this is AI because i was so confused
     pdf = FPDF()
